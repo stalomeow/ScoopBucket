@@ -9,13 +9,13 @@
     },
     "installer": {
         "script": [
-            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.Tool %*\" > \"$dir\\antlr4.bat\"",
-            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.gui.Interpreter %*\" > \"$dir\\antlr4-parse.bat\""
+            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.Tool `$args\" > \"$dir\\antlr4.ps1\"",
+            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.gui.Interpreter `$args\" > \"$dir\\antlr4-parse.ps1\""
         ]
     },
     "bin": [
-        "antlr4.bat",
-        "antlr4-parse.bat"
+        "antlr4.ps1",
+        "antlr4-parse.ps1"
     ],
     "checkver": {
         "github": "https://github.com/antlr/antlr4"
