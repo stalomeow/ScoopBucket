@@ -1,0 +1,26 @@
+{
+    "version": "4.13.2",
+    "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build and walk parse trees.",
+    "homepage": "https://www.antlr.org/index.html",
+    "license": "BSD 3-Clause",
+    "url": "https://www.antlr.org/download/antlr-4.13.2-complete.jar",
+    "suggest": {
+        "JDK 11": "java/openjdk11"
+    },
+    "installer": {
+        "script": [
+            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.Tool %*\" > \"$dir\\antlr4.bat\"",
+            "\"java -cp `\"$dir\\antlr-$version-complete.jar`\" org.antlr.v4.gui.Interpreter %*\" > \"$dir\\antlr4-parse.bat\""
+        ]
+    },
+    "bin": [
+        "antlr4.bat",
+        "antlr4-parse.bat"
+    ],
+    "checkver": {
+        "github": "https://github.com/antlr/antlr4"
+    },
+    "autoupdate": {
+        "url": "https://www.antlr.org/download/antlr-$version-complete.jar"
+    }
+}
