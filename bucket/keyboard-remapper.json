@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "Personal keyboard remapper.",
+    "homepage": "https://github.com/stalomeow/KeyboardRemapper",
+    "license": "MIT",
+    "url": [
+        "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.0/KeyboardRemapper.exe",
+        "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.0/KeyboardRemapper.Hook.dll",
+        "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.0/Scripts/Install.ps1",
+        "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.0/Scripts/Uninstall.ps1"
+    ],
+    "installer": {
+        "script": "& \"$dir\\Install.ps1\" -InstallDir \"$dir\""
+    },
+    "uninstaller": {
+        "script": "& \"$dir\\Uninstall.ps1\" -InstallDir \"$dir\""
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": [
+            "https://github.com/stalomeow/KeyboardRemapper/releases/download/v$version/KeyboardRemapper.exe",
+            "https://github.com/stalomeow/KeyboardRemapper/releases/download/v$version/KeyboardRemapper.Hook.dll",
+            "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v$version/Scripts/Install.ps1",
+            "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v$version/Scripts/Uninstall.ps1"
+        ]
+    }
+}
