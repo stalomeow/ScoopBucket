@@ -10,6 +10,12 @@
                 "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.0/KeyboardRemapper.Hook.dll",
                 "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.0/Scripts/Install.ps1",
                 "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.0/Scripts/Uninstall.ps1"
+            ],
+            "hash": [
+                "15dc2f1e8b73b86c813135cb9624a436ca8215170d2b035d57496ca4fb9c21aa",
+                "7f72a5dbdfbdbef965a8016afe0434e2b976b54c585eaf14d19cabf16de073d0",
+                "130f90439725f8dfeebb30a61cb63f43750f6a66a5bd48ab3c6b3217816045ca",
+                "35b2d4e4d7b4b2d9284468b140acbde955cc85cd79119fb3092382634f4f94d4"
             ]
         }
     },
