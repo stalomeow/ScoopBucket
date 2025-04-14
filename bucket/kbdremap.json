@@ -1,20 +1,20 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Personal keyboard remapper.",
     "homepage": "https://github.com/stalomeow/KeyboardRemapper",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.1/KeyboardRemapper.exe",
-                "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.1/KeyboardRemapper.Hook.dll",
-                "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.1/Scripts/Install.ps1",
-                "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.1/Scripts/Uninstall.ps1"
+                "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.2/KeyboardRemapper.exe",
+                "https://github.com/stalomeow/KeyboardRemapper/releases/download/v1.0.2/KeyboardRemapper.Hook.dll",
+                "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.2/Scripts/Install.ps1",
+                "https://raw.githubusercontent.com/stalomeow/KeyboardRemapper/refs/tags/v1.0.2/Scripts/Uninstall.ps1"
             ],
             "hash": [
-                "30df334679cc53d3f091cb4d6d533a82b291df04b799763ed3ecd1239d8cb311",
-                "73e35ed4a6f3e79ceafd07de93ad0dbdd8957654b547e2eba8aa003a95f32d7e",
-                "130f90439725f8dfeebb30a61cb63f43750f6a66a5bd48ab3c6b3217816045ca",
+                "596f3f55da9224a7b0a3a1bd9e5209ba2d92d4c5597d98897f27d5d590f21f58",
+                "d1d48a0714bc106785760ef1d0bbfa6a6ae19a216b90f74147b33f975755638f",
+                "884d8bce031ba795fa48ef52896d03a8a5778034aee762bc815cfdead3f6ee71",
                 "35b2d4e4d7b4b2d9284468b140acbde955cc85cd79119fb3092382634f4f94d4"
             ]
         }
